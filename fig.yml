@@ -1,0 +1,7 @@
+bamboo:
+  image: dordoka/bamboo
+  ports: 
+    - "8085:8085"
+    - "54663:54663"
+  volumes:
+    - "/opt/bamboo:/home/bamboo"

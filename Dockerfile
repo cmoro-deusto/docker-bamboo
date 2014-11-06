@@ -22,4 +22,4 @@ EXPOSE 8085
 EXPOSE 54663
 
 # Run supervisord
-CMD ["/start/supervisord"]
+CMD ["/start/supervisord", "&&", "/bin/bash"]
